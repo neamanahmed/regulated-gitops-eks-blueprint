@@ -3,7 +3,7 @@
 This repository demonstrates a production-style AWS Kubernetes platform aligned with UAE regulated environments.
 
 ## Core Focus
-- Banking-grade AWS foundations (VPC + IAM separation)
+- Banking-grade AWS foundations (VPC + IAM + EKS separation)
 - GitOps delivery with ArgoCD
 - SRE-level monitoring with Prometheus + Grafana
 - Operational runbooks for failure recovery
