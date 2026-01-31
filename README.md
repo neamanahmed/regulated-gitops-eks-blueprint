@@ -32,13 +32,13 @@ This blueprint focuses on what matters in **real UAE banking environments**:
 
 This project is intentionally positioned for:
 
-### ✅ UAE Banking Platform Engineer
+### 🔵 UAE Banking Platform Engineer
 Designing secure cloud foundations and Kubernetes platforms.
 
-### ✅ Cloud DevOps Architect
+### 🔵 Cloud DevOps Architect
 Delivering infrastructure automation, GitOps, and compliance controls.
 
-### ✅ SRE + Observability Engineer
+### 🔵 SRE + Observability Engineer
 Ensuring reliability, monitoring, incident response, and operational maturity.
 
 ---
