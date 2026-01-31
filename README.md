@@ -57,3 +57,13 @@ runbooks/             # SRE operational recovery procedures
 security-and-governance/ # Audit logging, RBAC baseline, compliance notes
 
 ARCHITECTURE.md       # Platform design explanation
+
+## Terraform Layering (Banking-Grade Change Control)
+
+This platform is structured into independent Terraform layers:
+
+- `terraform/vpc` — networking foundation (stable baseline)
+- `terraform/iam` — governance + least privilege (security-controlled)
+- `terraform/eks` — cluster lifecycle (upgrade + scaling)
+
+This separation minimizes blast radius and supports regulated enterprise change control.
