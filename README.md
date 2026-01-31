@@ -57,7 +57,7 @@ runbooks/             # SRE operational recovery procedures
 security-and-governance/ # Audit logging, RBAC baseline, compliance notes
 
 ARCHITECTURE.md       # Platform design explanation
-
+```
 ## Terraform Layering (Banking-Grade Change Control)
 
 This platform is structured into independent Terraform layers:
