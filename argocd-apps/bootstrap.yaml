@@ -1,0 +1,9 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: demo-nginx
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/neamanahmed/regulated-gitops-eks-blueprint
+    path: argocd-apps/demo-nginx
